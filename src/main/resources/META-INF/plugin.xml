@@ -5,6 +5,7 @@
     <vendor>wleese</vendor>
 
     <depends>com.intellij.modules.platform</depends>
+    <depends>org.jetbrains.plugins.yaml</depends>
 
     <extensions defaultExtensionNs="com.intellij">
         <projectViewPane implementation="com.github.wleese.intellij.kpttree.KptTreeProjectViewPane"/>

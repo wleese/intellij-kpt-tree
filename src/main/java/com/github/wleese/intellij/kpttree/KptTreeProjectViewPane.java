@@ -27,7 +27,7 @@ public class KptTreeProjectViewPane extends AbstractProjectViewPSIPane {
     @NotNull
     @Override
     public String getTitle() {
-        return "Infra Kpt";
+        return "Kpt Packages";
     }
 
     @NotNull

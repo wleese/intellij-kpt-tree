@@ -113,10 +113,6 @@ public class KptTreeProjectNode extends AbstractTreeNode<VirtualFile> {
             KptNodeGenerator.addGeneratedNodes(myProject, nodes, file);
         }
 
-        // todo insert virtual files to represent cloud resources
-        // LightVirtualFile lightVirtualFile = new LightVirtualFile("testing123");
-        // nodes.add(new KptTreeProjectNode(myProject, lightVirtualFile));
-
         return nodes;
     }
 
